@@ -53,8 +53,8 @@ def find(ask):
                 return movie
 
 
-
-
+def delete_book(name):
+    books = [book for book in books if book['name'] != name]
 
 
 main()
